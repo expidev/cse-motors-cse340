@@ -255,8 +255,8 @@ INSERT INTO public.account (
 VALUES (
     'Tony',
     'Stark',
-    'tony@starkent.com',
-    'Iam1ronM@an'
+    'tony@gmail.com',
+    '$2a$12$ShDCZZ2VeWbMppc/wevTyulkIlKvf7NEDog4RsZ3hqZhatVoXwJKW'
 );
 
 -- update the account_type of Tony Stark to "Admin"
@@ -264,11 +264,11 @@ VALUES (
 
 UPDATE public.account 
 SET account_type = 'Admin' 
-WHERE account_email = 'tony@starkent.com';
+WHERE account_email = 'tony@gmail.com';
 
--- Delete the Tony Stark record from the database
-DELETE FROM public.account WHERE 
-account_email = 'tony@starkent.com';
+-- -- Delete the Tony Stark record from the database
+-- DELETE FROM public.account WHERE 
+-- account_email = 'tony@starkent.com';
 
 -- Modify the "GM Hummer" record to read "a huge interior" rather than "small interiors"
 UPDATE public.inventory
