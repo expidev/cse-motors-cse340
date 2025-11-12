@@ -10,7 +10,7 @@ install the necessary dependencies using npm:
 npm install
 ```
 
-create a postgresql database and configure the connection settings in the `.env` file.
+create a postgresql database, run the script in database.sql in your server, and configure the connection settings in the `.env` file.
 
 with the following variables:
 
